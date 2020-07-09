@@ -1,6 +1,6 @@
 # Making Your Node Apps Full Stack
 
-You now know enough about MongoDB to make the Node apps that you made in the last module store their data somewhere.
+You now know enough about MongoDB to make the Node apps that you made in the last module retrieve their data from a database.
 
 For this homework you should add MongoDB to your Quote Server homework so that all of the data is retrieved from the database instead of the `quotes.js` file in the repository.
 
