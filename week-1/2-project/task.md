@@ -1,5 +1,7 @@
 # Readwell
 
+#### Background
+
 Your friend Kayla needs your help!
 
 A few months ago, Kayla built a simple website called “Readwell”. On Readwell, you can discover classic books to read online.
@@ -10,40 +12,42 @@ Then, Kayla decided to use MongoDB. She heard that it was better for lots of dat
 
 However, Kayla does not know how to connect her server to the MongoDB database! Luckily, she knows someone who can do it: you!
 
-Your job is to rewrite her Express server endpoints to correctly get books from her database collection.
+#### Task Summary
+
+Your job is to write some API endpoints in the Express server code to correctly return books from the MongoDB collection.
 
 ## Endpoints
 
 You need to write two endpoints:
 ```
-/api/books
-/api/books/:id
+GET /api/books          // to get all books, or books matching a query
+GET /api/books/:id      // to get one book by id
 ```
 
-1. When you go to `/api/books`, you should get all books.
+1. When you make a GET request to `/api/books`, you should get all books (if there are no query parameters given).
 
-2. If you add the query parameter title or author, you should get only books with the title or author value.
+2. If you add the query parameter title or author, you should get only books with the corresponding title or author value.
 
-3. If you add both of those query parameters, you should only get books with both the title and the author value.
+3. If you add both of those query parameters, you should only get books matching **both** the title and the author value.
 
    - For example, `/api/books?author=Jane Austen&title=Pride` and Prejudice should only get books with the author Jane Austen and title Pride and Prejudice.
 
-4. When you go to `/api/books/:id`, you should only get the book with that ID.
+4. When you make a GET request to `/api/books/:id`, you should only get the book with that ID.
 
-   - For example, if you go to `/api/books/5cfc28b7af37addd3cb1e7d2`, you should only get the book with `"\_id": "5cfc28b7af37addd3cb1e7d2"`.
+   - For example, if you go to `/api/books/5cfc28b7af37addd3cb1e7d2`, you should only get the book with an `_id` of `"5cfc28b7af37addd3cb1e7d2"`.
 
 5. If you give an ID that you cannot use for an ObjectId, you should get a 400 response.
 
-6. If you give a valid ObjectId string but it has no book, you should get a 404 response.
+6. If you give a valid ObjectId string but there is no matching book in the collection, you should get a 404 response.
 
-## Details
+## Getting started
 
 Start by remixing this code:
 
 https://glitch.com/~cyf-db-lesson-1-homework
 
-Here is the database URI:
+A database already exists, already with books in it.  You can simply connect to it:
 
-`mongodb+srv://cyf:LetsLearnMongoDB2019@cluster0-cxacx.mongodb.net`
-
-The database is literature, and the collections is books.
+* Connection URI: `mongodb+srv://cyf:LetsLearnMongoDB2019@cluster0-cxacx.mongodb.net`
+* Database name: `literature`
+* Collection name: `books`.
