@@ -36,7 +36,7 @@ should create a book like this and return it in the response JSON body:
 
 ```
 {
-\_id: ObjectId("5d07ffd81f64563a64fb0f1e"),
+_id: ObjectId("5d07ffd81f64563a64fb0f1e"),
 title: "Emma",
 author: "Austen",
 author_birth_year: 1775,
