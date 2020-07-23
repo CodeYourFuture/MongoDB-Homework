@@ -4,4 +4,4 @@ Before continuing with the homework you should make sure you have completed all 
 
 You can find the exercises here:
 
-https://syllabus.codeyourfuture.io/mongodb/week-2/lesson.html
+https://syllabus.codeyourfuture.io/mongodb/week-2/lesson
