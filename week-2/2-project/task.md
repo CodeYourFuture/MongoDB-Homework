@@ -7,7 +7,10 @@ Kayla is very happy for your help on her website! You helped her move from JSON 
 However, she wants to add some new features. Specifically, she wants to let user add, edit, and delete books. She made some changes to her web pages, but she needs your help to make them work with MongoDB.
 
 ### Task summary
+
 Write some more API endpoints in the Express server code to correctly add, edit, and delete books in a database collection.
+
+You will create and use your OWN database on Atlas (see section "getting started");.
 
 ## Endpoints
 
@@ -18,6 +21,8 @@ POST /api/books
 DELETE /api/books/:id
 PUT /api/books/:id
 ```
+
+## The endpoints in more detail
 
 ### POST
 
@@ -67,9 +72,9 @@ When you send a PUT request to `/api/books/:id`, it should update the book with 
 
 For example, if there is a book with `_id: ObjectId("5d07ffd81f64563a64fb0f1e")`, then sending a PUT request to `/api/books/5d057f95243295255b98b6a0` should update that book with the JSON body.
 
-## Details
+## Getting started
 
-Use your own database from MongoDB Atlas. Use a database called literature and a collection called books.
+Use **your own** database from MongoDB Atlas. Create a database called `literature` and a collection called `books`.  See week 2 of the syllabus for instructions on this if needed.
 
 Start by downloading the code here: https://github.com/garethbjohnson/cyf-db-homework-2
 
