@@ -16,9 +16,10 @@ If you already have this data, you can skip this step.
 ### Troubleshooting:
 
 If you CANNOT create a database from compass, it is probably that the user you are using does not have ADMIN rights on your atlas cluster.  
+
 To fix this you can either:
-A) create the database and (empty) collection on Atlas, or
-B) give ADMIN rights to your database user in atlas (see the "Database Access" section)
+* A) create the database and (empty) collection on Atlas, or
+* B) give ADMIN rights to your database user in atlas (see the "Database Access" section)
 
 # Run queries in compass to find the following answers
 
