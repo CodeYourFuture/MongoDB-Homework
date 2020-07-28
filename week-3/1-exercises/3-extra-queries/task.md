@@ -2,6 +2,10 @@
 
 Do at least #1 to #17 of these queries.
 
+Make a copy of this document. 
+
+Underneath each question, the answer and the query you used to obtain it.
+
 # Setting up: Data import
 
 Import cyf_mflix_movies_popular.json into a database on your mongodb server/atlas cluster.
