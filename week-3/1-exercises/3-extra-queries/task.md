@@ -29,13 +29,13 @@ To fix this you can either:
 
 ## Recap of week 1
 
-1. Which 3 movies came out in 1978
+1. Which 4 movies came out in 1978
 
 2. Which 3 movies rated as PG came out in 2001
 
 3. Which 4 movies with a metacritic score higher than 90 came out before 1950
 
-4. Which 3 movies with a metacritic score higher than 90 came out in the 1990s
+4. Which 4 movies with a metacritic score higher than 90 came out between 1990 and 1999 (inclusive)
 
 ## Deepening week 1
 
@@ -50,6 +50,9 @@ To fix this you can either:
 8. Which movie has won 210 awards?
 
 9. Which two movies have more than 50 "rotten" reviews on rotten tomatoes, but were nominated for (exactly) two Oscars?
+<details><summary>Hint</summary>
+<p>Look for the string: Nominated for 2 Oscars</p>
+</details>
 
 10. What are the 3 oldest movies in the database?
 
@@ -73,7 +76,7 @@ To fix this you can either:
 
 16. What movies include any of the given actors (e.g. /filmsbyactor?actors=Tom%Cruise,Matt&20Damon)
 
-17. Write a search endpoint that optionally combines the simple endpoints (e.g. /film/search?actors=Tom%20Cruise&minscore=80 and /film/search?year=2005&maxscore=75)
+17. Write a search endpoint that optionally combines the logic of the simple endpoints above.  It should be able to handle queries such as `/film/search?actors=Tom%20Cruise&minscore=80` and `/film/search?year=2005&maxscore=75`, as well as other combinations.
 
 ## More tricky
 
