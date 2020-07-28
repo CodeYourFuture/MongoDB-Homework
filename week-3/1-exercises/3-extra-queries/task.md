@@ -45,7 +45,7 @@ To fix this you can either:
 
 8. Which movie has won 210 awards?
 
-9. Which movie has more than 50 "rotten" reviews on rotten tomatoes, but was nominated for two Oscars
+9. Which two movies have more than 50 "rotten" reviews on rotten tomatoes, but were nominated for (exactly) two Oscars?
 
 10. What are the 3 oldest movies in the database?
 
