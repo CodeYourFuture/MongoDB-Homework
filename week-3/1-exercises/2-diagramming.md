@@ -13,18 +13,18 @@ Your diagram(s) should include AT LEAST numbers #1, #2 & #3. (I recommend detail
 
 ### You should try to capture ALL of the following:
 
-* The order of events
-* What the user sees
-* What actions the user takes
-* What key bits of code execute in react
-* What key bits of code execute in express...
-*     ... to handle the API request
-*     ... to communicate with mongodb
-*     ... to handle the API response
-* What critical data is passed at each point
+- The order of events
+- What the user sees
+- What actions the user takes
+- What key bits of code execute in react
+- What key bits of code execute in express...
+-     ... to handle the API request
+-     ... to communicate with mongodb
+-     ... to handle the API response
+- What critical data is passed at each point
 
-There's no one right way to do this, so be creative and find a way that works for you.  I recommend you *avoid* looking at what your classmates have done until you have chosen your OWN way.
+There's no one right way to do this, so be creative and find a way that works for you. I recommend you _avoid_ looking at what your classmates have done until you have chosen your OWN way.
 
 ### What tool should I use?
 
-Use whatever tool you know best!  Pen and paper is absolutely fine.
+Use whatever tool you know best! Pen and paper is absolutely fine.

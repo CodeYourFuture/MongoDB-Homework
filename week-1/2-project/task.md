@@ -19,6 +19,7 @@ Your job is to write some API endpoints in the Express server code to correctly 
 ## Endpoints
 
 You need to write two endpoints:
+
 ```
 GET /api/books          // to get all books, or books matching a query
 GET /api/books/:id      // to get one book by id
@@ -46,8 +47,8 @@ Start by remixing this code:
 
 https://glitch.com/~cyf-db-lesson-1-homework
 
-A database already exists, already with books in it.  You can simply connect to it:
+A database already exists, already with books in it. You can simply connect to it:
 
-* Connection URI: `mongodb+srv://cyf:LetsLearnMongoDB2019@cluster0-cxacx.mongodb.net`
-* Database name: `literature`
-* Collection name: `books`.
+- Connection URI: `mongodb+srv://cyf:LetsLearnMongoDB2019@cluster0-cxacx.mongodb.net`
+- Database name: `literature`
+- Collection name: `books`.
